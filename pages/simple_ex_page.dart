@@ -1,6 +1,6 @@
-import 'package:complex_ui/simple_examples/animation_ex.dart';
-import 'package:complex_ui/simple_examples/stack_ex.dart';
-import 'package:complex_ui/simple_examples/transform_ex.dart';
+import 'package:complex_ui/fundamental_elements/animation_controller.dart';
+import 'package:complex_ui/fundamental_elements/stack.dart';
+import 'package:complex_ui/fundamental_elements/transform.dart';
 import 'package:flutter/material.dart';
 
 enum UiSelector { stack, transform, animation }

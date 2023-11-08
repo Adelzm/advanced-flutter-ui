@@ -1,7 +1,8 @@
-import 'package:complex_ui/pages/cube_ex_page.dart';
-import 'package:complex_ui/pages/drawer_ex_page.dart';
-import 'package:complex_ui/pages/home_page.dart';
-import 'package:complex_ui/pages/simple_ex_page.dart';
+import 'package:complex_ui/pages/second_act/custom_drawer_page.dart';
+import 'package:complex_ui/home_page.dart';
+import 'package:complex_ui/pages/first_act/fundamental_elements_page.dart';
+import 'package:complex_ui/pages/third_act/atomic_drawer_page.dart';
+import 'package:complex_ui/pages/third_act/my_drawer_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -23,9 +24,10 @@ class MainApp extends StatelessWidget {
       ),
       routes: {
         '/': (context) => const HomePage(),
-        '/simple-example': (context) => const SimpleExPage(),
-        '/drawer-example': (context) => const DrawerExPage(),
-        '/cube-example': (context) => const CubeExPage(),
+        '/fundamental-elements': (context) => const FundamentalElementsPage(),
+        '/custom-drawer': (context) => const CustomDrawerPage(),
+        '/atomic-drawer': (context) => const AtomicDrawerPage(),
+        '/my-drawer': (context) => const MyDrawerPage(),
       },
     );
   }
