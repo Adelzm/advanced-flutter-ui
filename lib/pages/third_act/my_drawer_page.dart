@@ -8,25 +8,16 @@ class MyDrawerPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return BlocConsumer<DrawerBloc, DrawerState>(
-      listener: (context, state) {
-        if(state is ErrorState){
-          showDialog(context: context, builder: builder)
-        }
-      },
-      builder: (context, state) {
-        return DrawerPageTemplate(
-          pageTitle: 'My Drawer',
-          scale: 0.7,
-          horizontalOffset: 90,
-          backgroundWidget: DrawerBackground(
-            onPressedItem1: () {},
-            onPressedItem2: () {},
-            onPressedItem3: () {},
-          ),
-          foregroundWidget: const DrawerForeground(imagePath: 'assets/images/fancy_cat.jpg'),
-        );
-      },
+    return DrawerPageTemplate(
+      pageTitle: 'My Drawer',
+      scale: 0.7,
+      horizontalOffset: 90,
+      backgroundWidget: DrawerBackground(
+        onPressedItem1: () {},
+        onPressedItem2: () {},
+        onPressedItem3: () {},
+      ),
+      foregroundWidget: const DrawerForeground(imagePath: 'assets/images/fancy_cat.jpg'),
     );
   }
 }
