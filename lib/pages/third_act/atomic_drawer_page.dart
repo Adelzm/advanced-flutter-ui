@@ -46,7 +46,7 @@ class _AtomicDrawerPageState extends State<AtomicDrawerPage> with SingleTickerPr
           scale: scale,
           horizontalOffset: dx,
           animationController: _animationController,
-          child: const DrawerForeground(imagePath: 'assets/images/bull_dog.jpeg'),
+          child: const DrawerForeground(imagePath: 'assets/images/good_dog.jpeg'),
         ),
       ),
     );

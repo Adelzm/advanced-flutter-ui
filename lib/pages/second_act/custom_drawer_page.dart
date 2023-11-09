@@ -48,7 +48,7 @@ class _CustomDrawerPageState extends State<CustomDrawerPage> with SingleTickerPr
     Widget myDog = Container(
       decoration: const BoxDecoration(
         image: DecorationImage(
-          image: AssetImage('assets/images/bull_dog.jpeg'),
+          image: AssetImage('assets/images/good_dog.jpeg'),
           fit: BoxFit.cover,
         ),
       ),

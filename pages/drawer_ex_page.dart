@@ -21,9 +21,7 @@ class _DrawerExPageState extends State<DrawerExPage> with SingleTickerProviderSt
     );
   }
 
-  void toggle() => _animationController.isDismissed
-      ? _animationController.forward()
-      : _animationController.reverse();
+  void toggle() => _animationController.isDismissed ? _animationController.forward() : _animationController.reverse();
 
   @override
   Widget build(BuildContext context) {
@@ -50,7 +48,7 @@ class _DrawerExPageState extends State<DrawerExPage> with SingleTickerProviderSt
     Widget myDog = Container(
       decoration: const BoxDecoration(
         image: DecorationImage(
-          image: AssetImage('assets/images/bull_dog.jpeg'),
+          image: AssetImage('assets/images/good_dog.jpeg'),
           fit: BoxFit.cover,
         ),
       ),

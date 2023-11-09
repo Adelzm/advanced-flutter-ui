@@ -17,7 +17,7 @@ class MyDrawerPage extends StatelessWidget {
         onPressedItem2: () {},
         onPressedItem3: () {},
       ),
-      foregroundWidget: const DrawerForeground(imagePath: 'assets/images/cute_dog.jpg'),
+      foregroundWidget: const DrawerForeground(imagePath: 'assets/images/fancy_cat.jpg'),
     );
   }
 }

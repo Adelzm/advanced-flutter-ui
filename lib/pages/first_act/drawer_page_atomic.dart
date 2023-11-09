@@ -46,7 +46,7 @@ class _DrawerExPageState extends State<DrawerExPage> with SingleTickerProviderSt
           scale: scale,
           horizontalOffset: dx,
           animationController: _animationController,
-          child: const DrawerForeground(imagePath: 'assets/images/bull_dog.jpeg'),
+          child: const DrawerForeground(imagePath: 'assets/images/good_dog.jpeg'),
         ),
       ),
     );
